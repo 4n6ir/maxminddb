@@ -42,7 +42,8 @@ class MaxminddbStack(Stack):
                 _lambda.Runtime.PYTHON_3_8,
                 _lambda.Runtime.PYTHON_3_9,
                 _lambda.Runtime.PYTHON_3_10,
-                _lambda.Runtime.PYTHON_3_11
+                _lambda.Runtime.PYTHON_3_11,
+                _lambda.Runtime.PYTHON_3_12
             ],
             description = 'MaxMind-DB-Reader-python 2.5.1 (https://github.com/maxmind/MaxMind-DB-Reader-python)',
             layer_version_name = 'maxminddb',
