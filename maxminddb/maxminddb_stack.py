@@ -45,7 +45,7 @@ class MaxminddbStack(Stack):
                 _lambda.Runtime.PYTHON_3_11,
                 _lambda.Runtime.PYTHON_3_12
             ],
-            description = 'MaxMind-DB-Reader-python 2.5.2 (https://github.com/maxmind/MaxMind-DB-Reader-python)',
+            description = 'MaxMind-DB-Reader-python 2.6.0 (https://github.com/maxmind/MaxMind-DB-Reader-python)',
             layer_version_name = 'maxminddb',
             license = 'Apache-2.0 License',
             removal_policy = RemovalPolicy.DESTROY
